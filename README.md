@@ -46,8 +46,8 @@ This project demonstrates proficiency with Meteor.js and Blaze by implementing a
 ### 1. Clone and install
 
 ```bash
-git clone <your-repo-url>
-cd simple-todos-blaze
+git clone https://github.com/SURYAS1306/meteor-blaze-todo-assignment.git
+cd meteor-blaze-todo-assignment
 meteor npm install
 ```
 
