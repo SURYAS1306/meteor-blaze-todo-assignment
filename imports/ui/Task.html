@@ -1,0 +1,9 @@
+<template name="task">
+  <li class="task-item">
+    <span class="drag-handle" draggable="true" title="Drag to reorder">&#9776;</span>
+    <input type="checkbox" checked="{{isChecked}}" class="toggle-checked" />
+    <span class="task-text">{{text}}</span>
+    <span class="category-badge category-badge-{{categoryClass}}">{{category}}</span>
+    <button class="delete" type="button">&times;</button>
+  </li>
+</template>
