@@ -72,7 +72,7 @@ A demo account is created automatically on first startup:
 
 ### 4. Sample tasks
 
-On first run, 8 sample tasks are seeded for the demo user (only when that user has no existing tasks):
+On first run, 7 sample tasks are seeded for the demo user (only when that user has no existing tasks):
 
 | Category | Tasks |
 |---|---|
