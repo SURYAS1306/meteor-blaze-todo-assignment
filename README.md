@@ -76,10 +76,10 @@ On first run, 7 sample tasks are seeded for the demo user (only when that user h
 
 | Category | Tasks |
 |---|---|
-| **Work** | Review sprint requirements; Configure local Meteor environment; Update MongoDB schema for categories |
-| **Urgent** | Fix authentication publication bug; Test drag-and-drop functionality |
-| **Other** | Read Meteor security documentation |
-| **Personal** | Prepare feature demo; Complete learning goals for the week |
+| **Work** | Review Meteor Blaze internship assignment requirements; Implement category badges and filters in Blaze templates |
+| **Urgent** | Fix tasks publication failing after authentication; Resolve drag-and-drop order persistence issue |
+| **Other** | Read Meteor methods and security documentation |
+| **Personal** | Configure local Meteor and MongoDB development environment; Complete Blaze Simple Todos tutorial walkthrough |
 
 To reset and re-seed sample tasks:
 
@@ -115,7 +115,7 @@ Each task document in MongoDB stores:
 ## Project Structure
 
 ```
-simple-todos-blaze/
+meteor-blaze-todo-assignment/
 ├── client/
 │   ├── main.html          # HTML entry point
 │   ├── main.js            # Client entry point
@@ -182,4 +182,6 @@ npm run test-app   # Run full-app tests in watch mode
 
 ## Author
 
-Technical assignment submission — Meteor.js / Blaze internship assessment.
+Surya Srinivasan
+
+Built as part of a Meteor.js / Blaze technical assessment, demonstrating authentication, category management, filtering, and drag-and-drop task reordering using Meteor 3 and Blaze.
